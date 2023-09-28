@@ -5,6 +5,8 @@ import java.util.Scanner;
 /*Q.Write a Java program that throws an exception and catch it using a try-catch block.*/
 public class ExceptionH1 {
 
+    //main method
+
     public static int division(int dividend, int divisor) {
         if (divisor == 0) {
             throw new ArithmeticException("Can not divide a number by zero!");
