@@ -21,7 +21,7 @@ public class ExceptionH1 {
         System.out.println("enter divisor :");
         int divisor = sc.nextInt();
 
-        //risky code
+        //risky code inside try block and handling code inside catch block
         try {
             int result = division(dividend, divisor);
             System.out.println("result is: " + result);
